@@ -12,3 +12,4 @@
 /home/white/workspace/csharp/learn/obj/Debug/net8.0/learn.pdb
 /home/white/workspace/csharp/learn/obj/Debug/net8.0/learn.genruntimeconfig.cache
 /home/white/workspace/csharp/learn/obj/Debug/net8.0/ref/learn.dll
+/home/white/workspace/csharp/learn/obj/Debug/net8.0/learn.sourcelink.json
