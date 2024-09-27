@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4BGDHJmPRttKOVXB9pNEeJIRP6RXDYthyvNwKR7+zJxkc2Cv3egaDEbck4kLP5INls/vdBYgrQIzZkiAMPYazQ==",
+  "success": true,
+  "projectFilePath": "/home/white/workspace/csharp/learn/learn.csproj",
+  "expectedPackageFiles": [
+    "/home/white/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.7/microsoft.aspnetcore.app.ref.8.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}

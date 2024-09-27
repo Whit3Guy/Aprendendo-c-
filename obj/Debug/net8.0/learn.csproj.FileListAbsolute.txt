@@ -1,0 +1,14 @@
+/home/white/workspace/csharp/learn/bin/Debug/net8.0/learn
+/home/white/workspace/csharp/learn/bin/Debug/net8.0/learn.deps.json
+/home/white/workspace/csharp/learn/bin/Debug/net8.0/learn.runtimeconfig.json
+/home/white/workspace/csharp/learn/bin/Debug/net8.0/learn.dll
+/home/white/workspace/csharp/learn/bin/Debug/net8.0/learn.pdb
+/home/white/workspace/csharp/learn/obj/Debug/net8.0/learn.GeneratedMSBuildEditorConfig.editorconfig
+/home/white/workspace/csharp/learn/obj/Debug/net8.0/learn.AssemblyInfoInputs.cache
+/home/white/workspace/csharp/learn/obj/Debug/net8.0/learn.AssemblyInfo.cs
+/home/white/workspace/csharp/learn/obj/Debug/net8.0/learn.csproj.CoreCompileInputs.cache
+/home/white/workspace/csharp/learn/obj/Debug/net8.0/learn.dll
+/home/white/workspace/csharp/learn/obj/Debug/net8.0/refint/learn.dll
+/home/white/workspace/csharp/learn/obj/Debug/net8.0/learn.pdb
+/home/white/workspace/csharp/learn/obj/Debug/net8.0/learn.genruntimeconfig.cache
+/home/white/workspace/csharp/learn/obj/Debug/net8.0/ref/learn.dll
