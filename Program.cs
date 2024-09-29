@@ -1,53 +1,25 @@
-﻿class Program{
-
+﻿
+class Program{
+        static void Main(){
+                       //Sendo delegate um método anônimo, e agora o C# o enxerga como um Func, que se executa normal como função, um método anônimo
+        var multiply = delegate (int x, int y){return x*y;};
+        Console.WriteLine(multiply(10,12));
+        Calculate calculate = new(Sum);
+        var result = calculate(10,20);
+        Console.WriteLine(result);
+        Run(Multiply);
     
-    static void Main(){
-
-        void registrar(){
-
-        Console.WriteLine("Insira o nome do produto: ");
-        string nome = Console.ReadLine();
-
-        Console.WriteLine("Insira o valor do produto: ");
-        int valor = int.Parse(Console.ReadLine());
-
-        Console.WriteLine("Insira a data de validade do produto: ");
-        string data_validade = Console.ReadLine();
-
-        Register MeuRegistro = new(nome, data_validade, valor);
-        MeuRegistro.register_product();
-        }
-
-        Console.WriteLine("deseja registrar quantos produtos? ");
-        int contador = int.Parse(Console.ReadLine());
-        for (int i = 0; i < contador; i++)
-        {
-            Console.WriteLine($"{i + 1}° produto: ");
-            registrar();
-        }
     }
+    static void Run(Calculate calc){
+        Console.WriteLine(calc(30,50));
+    }
+    static int Sum(int a, int b){
+        return a + b;
+    }
+    static int Multiply(int a, int b){
+        return a * b;
+    }
+
 }
-class Register{
-    protected string name;
-    protected int value;
-    protected string validate_time;
 
-    public string message;
-
-
-    public Register(string name, string validate_time, int value)
-    {
-        this.name = name;
-        this.validate_time = validate_time;
-        this.value = value;
-    }
-
-    void create_message(){ 
-        this.message = $"Produto {this.name} de valor {this.value} com a data de validade {this.validate_time} vendido";
-    }
-
-    public void register_product(){
-        create_message();
-        File.AppendAllText("log.txt", this.message);
-    }
-}
+delegate int Calculate(int x, int y);
