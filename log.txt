@@ -1,1 +1,0 @@
-Produto banana de valor 12 com a data de validade 16/05/2025 vendidoProduto banana de valor 12 com a data de validade 15/06/2005 vendido
